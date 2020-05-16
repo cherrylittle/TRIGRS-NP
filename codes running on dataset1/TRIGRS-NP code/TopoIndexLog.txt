@@ -1,0 +1,439 @@
+ 
+ Starting TopoIndex
+ Version: 1.0.11, 13Mar2013 
+ Date: 08/02/2019
+ Time: 12:55:32
+ 
+ -- LISTING OF INITIALIZATION DATA --
+ TopoIndex 1.0.11; Name of project (up to 255 characters)
+ Tutorial example data for TopoIndex analysis
+ Flow-direction numbering scheme (ESRI=1, TopoIndex=2)
+           1
+ Exponent, Number of iterations
+  -1.00000000            1200
+ Name of elevation grid file
+ data/tutorial/dem.asc
+ data/tutorial/directions.asc
+ data/tutorial/directions.asc
+ Save listing of D8 downslope neighbor cells?  Enter T (.true.) or F (.false.)
+ T
+ Save grid of D8 downslope neighbor cells? Enter T (.true.) or F (.false.)
+ T
+ Save cell index number grid?  Enter T (.true.) or F (.false.)
+ T
+ Save list of cell number and corresponding index number? Enter T (.true.) or F (.false.)
+ T
+ Save flow-direction grid remapped from ESRI to TopoIndex? Enter T (.true.) or F (.false.)
+ T
+ Save grid of points on ridge crests? Enter T (.true.) or F (.false.); Sparse (T) or dense (F)?
+ F T
+ Path to elevation grid and output files
+ data/tutorial/
+ ID code for output files? (8 characters or less)
+ tutorial
+ -- END OF INITIALIZATION DATA --
+ 
+ Tutorial example data for TopoIndex analysis
+ 
+ Parameters for file--> data/tutorial/dem.asc
+ Data cells, Rows, Columns
+     1656167        1438        2516
+ Reading flow-direction data
+ 
+          Listing of grid mismatches
+ Mismatch counter, Row, Column, Direction code
+           0 ,  --,   --,  --
+ No grid mismatch found!
+ Subroutine nxtcel completed normally
+ iteration           1
+ iteration            1  corrections       206281
+ iteration           2
+ iteration            2  corrections       192683
+ iteration           3
+ iteration            3  corrections       171627
+ iteration           4
+ iteration            4  corrections       152951
+ iteration           5
+ iteration            5  corrections       136846
+ iteration           6
+ iteration            6  corrections       122669
+ iteration           7
+ iteration            7  corrections       110029
+ iteration           8
+ iteration            8  corrections        98561
+ iteration           9
+ iteration            9  corrections        88431
+ iteration          10
+ iteration           10  corrections        79416
+ iteration          11
+ iteration           11  corrections        71796
+ iteration          12
+ iteration           12  corrections        64847
+ iteration          13
+ iteration           13  corrections        59064
+ iteration          14
+ iteration           14  corrections        53194
+ iteration          15
+ iteration           15  corrections        48790
+ iteration          16
+ iteration           16  corrections        44717
+ iteration          17
+ iteration           17  corrections        41298
+ iteration          18
+ iteration           18  corrections        38226
+ iteration          19
+ iteration           19  corrections        35303
+ iteration          20
+ iteration           20  corrections        32804
+ iteration          21
+ iteration           21  corrections        30688
+ iteration          22
+ iteration           22  corrections        28784
+ iteration          23
+ iteration           23  corrections        26771
+ iteration          24
+ iteration           24  corrections        25018
+ iteration          25
+ iteration           25  corrections        23517
+ iteration          26
+ iteration           26  corrections        22067
+ iteration          27
+ iteration           27  corrections        20912
+ iteration          28
+ iteration           28  corrections        19758
+ iteration          29
+ iteration           29  corrections        18809
+ iteration          30
+ iteration           30  corrections        17894
+ iteration          31
+ iteration           31  corrections        16908
+ iteration          32
+ iteration           32  corrections        15986
+ iteration          33
+ iteration           33  corrections        14974
+ iteration          34
+ iteration           34  corrections        14486
+ iteration          35
+ iteration           35  corrections        13791
+ iteration          36
+ iteration           36  corrections        13194
+ iteration          37
+ iteration           37  corrections        12577
+ iteration          38
+ iteration           38  corrections        12118
+ iteration          39
+ iteration           39  corrections        11262
+ iteration          40
+ iteration           40  corrections        10646
+ iteration          41
+ iteration           41  corrections        10382
+ iteration          42
+ iteration           42  corrections         9971
+ iteration          43
+ iteration           43  corrections         9589
+ iteration          44
+ iteration           44  corrections         9072
+ iteration          45
+ iteration           45  corrections         8572
+ iteration          46
+ iteration           46  corrections         8408
+ iteration          47
+ iteration           47  corrections         7839
+ iteration          48
+ iteration           48  corrections         7218
+ iteration          49
+ iteration           49  corrections         6915
+ iteration          50
+ iteration           50  corrections         6484
+ iteration          51
+ iteration           51  corrections         6252
+ iteration          52
+ iteration           52  corrections         5891
+ iteration          53
+ iteration           53  corrections         5617
+ iteration          54
+ iteration           54  corrections         5381
+ iteration          55
+ iteration           55  corrections         5198
+ iteration          56
+ iteration           56  corrections         4934
+ iteration          57
+ iteration           57  corrections         4726
+ iteration          58
+ iteration           58  corrections         4531
+ iteration          59
+ iteration           59  corrections         4271
+ iteration          60
+ iteration           60  corrections         4112
+ iteration          61
+ iteration           61  corrections         3884
+ iteration          62
+ iteration           62  corrections         3789
+ iteration          63
+ iteration           63  corrections         3584
+ iteration          64
+ iteration           64  corrections         3453
+ iteration          65
+ iteration           65  corrections         3301
+ iteration          66
+ iteration           66  corrections         3199
+ iteration          67
+ iteration           67  corrections         3008
+ iteration          68
+ iteration           68  corrections         2927
+ iteration          69
+ iteration           69  corrections         2825
+ iteration          70
+ iteration           70  corrections         2736
+ iteration          71
+ iteration           71  corrections         2624
+ iteration          72
+ iteration           72  corrections         2547
+ iteration          73
+ iteration           73  corrections         2448
+ iteration          74
+ iteration           74  corrections         2384
+ iteration          75
+ iteration           75  corrections         2184
+ iteration          76
+ iteration           76  corrections         2040
+ iteration          77
+ iteration           77  corrections         2004
+ iteration          78
+ iteration           78  corrections         1935
+ iteration          79
+ iteration           79  corrections         1838
+ iteration          80
+ iteration           80  corrections         1799
+ iteration          81
+ iteration           81  corrections         1740
+ iteration          82
+ iteration           82  corrections         1659
+ iteration          83
+ iteration           83  corrections         1609
+ iteration          84
+ iteration           84  corrections         1519
+ iteration          85
+ iteration           85  corrections         1504
+ iteration          86
+ iteration           86  corrections         1447
+ iteration          87
+ iteration           87  corrections         1346
+ iteration          88
+ iteration           88  corrections         1292
+ iteration          89
+ iteration           89  corrections         1333
+ iteration          90
+ iteration           90  corrections         1303
+ iteration          91
+ iteration           91  corrections         1279
+ iteration          92
+ iteration           92  corrections         1266
+ iteration          93
+ iteration           93  corrections         1199
+ iteration          94
+ iteration           94  corrections         1192
+ iteration          95
+ iteration           95  corrections         1075
+ iteration          96
+ iteration           96  corrections         1023
+ iteration          97
+ iteration           97  corrections          950
+ iteration          98
+ iteration           98  corrections          921
+ iteration          99
+ iteration           99  corrections          882
+ iteration         100
+ iteration          100  corrections          866
+ iteration         101
+ iteration          101  corrections          840
+ iteration         102
+ iteration          102  corrections          795
+ iteration         103
+ iteration          103  corrections          793
+ iteration         104
+ iteration          104  corrections          724
+ iteration         105
+ iteration          105  corrections          753
+ iteration         106
+ iteration          106  corrections          725
+ iteration         107
+ iteration          107  corrections          662
+ iteration         108
+ iteration          108  corrections          689
+ iteration         109
+ iteration          109  corrections          658
+ iteration         110
+ iteration          110  corrections          596
+ iteration         111
+ iteration          111  corrections          620
+ iteration         112
+ iteration          112  corrections          596
+ iteration         113
+ iteration          113  corrections          543
+ iteration         114
+ iteration          114  corrections          528
+ iteration         115
+ iteration          115  corrections          522
+ iteration         116
+ iteration          116  corrections          486
+ iteration         117
+ iteration          117  corrections          474
+ iteration         118
+ iteration          118  corrections          439
+ iteration         119
+ iteration          119  corrections          433
+ iteration         120
+ iteration          120  corrections          413
+ iteration         121
+ iteration          121  corrections          395
+ iteration         122
+ iteration          122  corrections          379
+ iteration         123
+ iteration          123  corrections          358
+ iteration         124
+ iteration          124  corrections          337
+ iteration         125
+ iteration          125  corrections          320
+ iteration         126
+ iteration          126  corrections          309
+ iteration         127
+ iteration          127  corrections          289
+ iteration         128
+ iteration          128  corrections          271
+ iteration         129
+ iteration          129  corrections          261
+ iteration         130
+ iteration          130  corrections          244
+ iteration         131
+ iteration          131  corrections          228
+ iteration         132
+ iteration          132  corrections          207
+ iteration         133
+ iteration          133  corrections          193
+ iteration         134
+ iteration          134  corrections          180
+ iteration         135
+ iteration          135  corrections          164
+ iteration         136
+ iteration          136  corrections          149
+ iteration         137
+ iteration          137  corrections          142
+ iteration         138
+ iteration          138  corrections          129
+ iteration         139
+ iteration          139  corrections          113
+ iteration         140
+ iteration          140  corrections           94
+ iteration         141
+ iteration          141  corrections           87
+ iteration         142
+ iteration          142  corrections           80
+ iteration         143
+ iteration          143  corrections           69
+ iteration         144
+ iteration          144  corrections           69
+ iteration         145
+ iteration          145  corrections           64
+ iteration         146
+ iteration          146  corrections           59
+ iteration         147
+ iteration          147  corrections           55
+ iteration         148
+ iteration          148  corrections           51
+ iteration         149
+ iteration          149  corrections           46
+ iteration         150
+ iteration          150  corrections           39
+ iteration         151
+ iteration          151  corrections           36
+ iteration         152
+ iteration          152  corrections           34
+ iteration         153
+ iteration          153  corrections           30
+ iteration         154
+ iteration          154  corrections           29
+ iteration         155
+ iteration          155  corrections           27
+ iteration         156
+ iteration          156  corrections           27
+ iteration         157
+ iteration          157  corrections           26
+ iteration         158
+ iteration          158  corrections           25
+ iteration         159
+ iteration          159  corrections           24
+ iteration         160
+ iteration          160  corrections           23
+ iteration         161
+ iteration          161  corrections           17
+ iteration         162
+ iteration          162  corrections           17
+ iteration         163
+ iteration          163  corrections           17
+ iteration         164
+ iteration          164  corrections           17
+ iteration         165
+ iteration          165  corrections           16
+ iteration         166
+ iteration          166  corrections           15
+ iteration         167
+ iteration          167  corrections           14
+ iteration         168
+ iteration          168  corrections           11
+ iteration         169
+ iteration          169  corrections           11
+ iteration         170
+ iteration          170  corrections           11
+ iteration         171
+ iteration          171  corrections            9
+ iteration         172
+ iteration          172  corrections            9
+ iteration         173
+ iteration          173  corrections            9
+ iteration         174
+ iteration          174  corrections            9
+ iteration         175
+ iteration          175  corrections            8
+ iteration         176
+ iteration          176  corrections            8
+ iteration         177
+ iteration          177  corrections            7
+ iteration         178
+ iteration          178  corrections            1
+ iteration         179
+ iteration          179  corrections            1
+ iteration         180
+ iteration          180  corrections            1
+ iteration         181
+ iteration          181  corrections            1
+ iteration         182
+ iteration          182  corrections            1
+ iteration         183
+ iteration          183  corrections            1
+ iteration         184
+ iteration          184  corrections            1
+ iteration         185
+ iteration          185  corrections            1
+ iteration         186
+ iteration          186  corrections            1
+ iteration         187
+ iteration          187  corrections            1
+ iteration         188
+ iteration          188  corrections            1
+ iteration         189
+ iteration          189  corrections            1
+ iteration         190
+ iteration          190  corrections            1
+ iteration         191
+ iteration          191  corrections            1
+ iteration         192
+ iteration          192  corrections            0
+ Parameters for file--> data/tutorial/dem.asc
+ Exponent   -1.00000000    
+ Data cells, Rows, Columns, Downslope cells
+     1656167        1438        2516     2131207
+ 
+ TopoIndex finished normally
+ Date: 08/02/2019
+ Time: 12:56:09
