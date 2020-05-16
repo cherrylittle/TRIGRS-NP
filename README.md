@@ -1,4 +1,4 @@
-# the-parallelization-to-TRIGRS-model(TRIGRS 2.1)
+# the parallelization to TRIGRS model(TRIGRS 2.1)
 We use OpenMP and MPI to further parallelize the latest version of TRIGRS model, TRIGRS 2.1, shortening its running time.
 And we call this new version after our optimization TRIGRS-NP.
 
