@@ -8,11 +8,15 @@ TRIGRS-NP code : storing the codes after optimized and the data.
 
 TRIGRS 2.1 code: storing the codes before optimized and the data.
 notice: Since dataset 2 is too large, we compress all the files in it. 
-        Please unzip them to ".asc" files, as thoes in dataset 1.
+        Please unzip them to ".asc" files, as such files in dataset 1.
+        
+The TRIGRS code (serial code) are  included in TRIGRS 2.1 code. The files name with "_p" is TRIGRS 2.1 code, 
+and the ones without "_p" is TRIGRS code.
 
 Compiling and running steps: 
 1) load the compiling environment (load MPI, GSL)
-2) make (generate tpx, prg) 
+2) make (generate tpx, trg, prg) 
 3) yhrun. /tpx
-4) for original code: yhrun -n ./prg
-   for optimized code:yhbatch - N - n - c. / run1.sh
+4) for TRIGRS code: yhrun ./trg
+   for TRIGRS 2.1 code: yhrun -n ./prg
+   for TRIGRS-NP code: yhbatch - N - n - c. / run1.sh
