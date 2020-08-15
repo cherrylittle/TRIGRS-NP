@@ -39,6 +39,7 @@ program trigrs_mpi
   character (len=2)::pid(3)
   logical :: lwarn !, lwarn2
   integer myrank,isize,ierr
+  ! compute the time for each part
   DOUBLE PRECISION time_begin, time_end
   DOUBLE PRECISION time_begin1, time_end1
   DOUBLE PRECISION time_begin2, time_end2
@@ -480,6 +481,7 @@ program trigrs_mpi
         & 'time_incr_ctr, tinc_sat(time_incr_ctr) ',time_incr_ctr, tinc_sat(time_incr_ctr) ! Revised 3/3/2015, RLB
      end do
   end do
+
   ! compute output pointers	
   allocate(jsav(nts+1))  
   jsav=0

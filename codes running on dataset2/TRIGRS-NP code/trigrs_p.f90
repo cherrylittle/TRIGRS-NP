@@ -39,6 +39,7 @@ program trigrs_mpi
   character (len=2)::pid(3)
   logical :: lwarn !, lwarn2
   integer myrank,isize,ierr
+  ! compute the time for each part
   DOUBLE PRECISION time_begin, time_end
   DOUBLE PRECISION time_begin1, time_end1
   DOUBLE PRECISION time_begin2, time_end2
