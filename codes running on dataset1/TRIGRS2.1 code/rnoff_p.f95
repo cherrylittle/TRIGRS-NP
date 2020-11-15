@@ -4,6 +4,7 @@ subroutine rnoff_p(grd,sumex,imx1,celsiz,param,parami,nodat,nodata,mnd,sctr,ncol
   !  
   ! MPI calls & MPI-related changes by M. Alvioli, November 2014
   !
+  ! optimize this subroutine by MPI
   use input_file_defs; use input_vars
   use grids
   use mpi
