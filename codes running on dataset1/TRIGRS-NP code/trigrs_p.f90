@@ -4,6 +4,7 @@
 !
 ! MPI calls & MPI-related changes by M. Alvioli, November 2014  
 !
+!decrease the communication cost
 program trigrs_mpi
   use input_file_defs; use input_vars
   use grids; use model_vars

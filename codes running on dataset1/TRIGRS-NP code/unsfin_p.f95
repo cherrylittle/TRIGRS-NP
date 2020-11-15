@@ -41,6 +41,8 @@ subroutine unsfin_p(imx1,ulog,u1,ncc,nccs)
   endif
   ! loop over all grid cells
   finf=10.
+  
+  ! parallelize this part by OpenMP
   !!$omp parallel do private(j,jf,k,q,qt,qb,b,beta,tolqk,dcf,dusz,qzmax) &
   !!$omp private(testqk,qmax,delwt,dwt,zwt,ddwt,ts,vqt,vqtn,cd,qbij) &
    !!$omp private(qta,sqin,al,nmax2,nmin,qtime,qtn,rf,intq,intq1,delh) &
