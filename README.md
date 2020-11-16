@@ -4,7 +4,7 @@ And we call this new version after our optimization TRIGRS-NP.
 
 Directories:
 
-TRIGRS-NP code : storing the codes after optimized and the data.
+TRIGRS-NP code : storing the codes after optimized and the data used in experiments.
 
 TRIGRS 2.1 code: storing the codes before optimized and the data.
 notice: Since dataset 2 is too large, we compress all the files in it. 
